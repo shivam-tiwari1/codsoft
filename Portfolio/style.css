@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* ABOUT SECTION */
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto; /* centered */
+}
+
+/* SKILLS */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;  /* centers all skills */
+}
+
+#skills li {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* PROJECT SECTION — FULLY CENTERED */
+#projects {
+    text-align: center; /* centers title & content */
+}
+
+.project {
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;  /* centers each project block */
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.project h3,
+.project p {
+    text-align: center;
+}
+
+/* RESUME BUTTON */
+#resume a {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* CONTACT */
+#contact p {
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+}
