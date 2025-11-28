@@ -1,0 +1,1 @@
+# Job Board (Full-stack)\n\nThis archive contains a full-stack job board scaffold (backend + frontend). See backend/ and frontend/ folders.\n
